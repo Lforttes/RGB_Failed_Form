@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+:root{
+    --font_form: 'Mate SC', serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
+    background-color: #007833;
+    font-family: var(--font_form);
+    background: url('image/bk.png') no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    margin: auto;
+    padding: 30px;
+    padding-left: 10%;
+    margin-top: 10px;
+    color: white;
+}
+header p{
+    max-width: 700px;
+    margin-right: 10px;
+    margin-left: 30px;
+    text-align: justify;
+}
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+
+}
+article {
+    background: url('image/flag.jpg') no-repeat;
+    background-position: center ;
+    border: 1px solid white;
+    box-shadow:  1px 1px 5px white;
+    color: black;
+    max-width: 400px;
+    height: 350px;
+    margin: auto;
+    margin-top: 10%;
+}
+article h2{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    width: 60%;
+}
+.login, .pass, .butons{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+#isend, #iclean{
+    padding: 10px;
+    background-color: orange;
+    border-radius: 10px;
+    font-family: var(--font_form);
+}
+#iemail, #ipassword{
+    padding: 10px;
+}
+#isend:hover, #iclean:hover{
+    transform: scale(1.1);
+    font-weight: bolder;
+    font-size: .7em;
+}
