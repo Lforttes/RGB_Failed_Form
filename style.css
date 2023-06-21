@@ -15,6 +15,7 @@ body{
     font-family: var(--font_form);
     background: url('image/bk.png') no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 header h1{
@@ -73,4 +74,13 @@ article h2{
     transform: scale(1.1);
     font-weight: bolder;
     font-size: .7em;
+}
+footer{
+    border: 1px solid black;
+    background-color: rgba(159, 204, 223, 0.397);
+    min-width:300px;
+    padding: 45px;
+    margin: auto;
+    text-align: center;
+    
 }
