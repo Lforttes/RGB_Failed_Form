@@ -78,18 +78,6 @@ article h2{
     font-size: .7em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     text-align: center;
     padding: 15px;
@@ -103,4 +91,5 @@ footer{
 }
 footer p {
     text-decoration: underline;
+    padding-top: 15px;
 }
